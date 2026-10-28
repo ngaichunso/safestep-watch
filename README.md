@@ -8,11 +8,6 @@ sounds a local alarm and sends a Telegram alert with a snapshot to a caregiver.
 A Flask dashboard provides a live camera feed and system status over the local
 network.
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4B-C51A4A?logo=raspberrypi&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-pose-00A3FF)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
 ## Why I built this
 
 Falls are a major risk for older adults, especially those living alone, and the
