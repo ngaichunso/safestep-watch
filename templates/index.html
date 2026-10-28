@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeStep Watch</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background: #111;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px 16px;
+            gap: 14px;
+        }
+
+        h1 {
+            font-family: Arial, sans-serif;
+            font-size: 1.4rem;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 640px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #333;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>SafeStep Watch</h1>
+
+    <img src="{{ url_for('video_feed') }}"
+         alt="Live Camera Stream"
+         width="640" height="480">
+
+</body>
+</html>

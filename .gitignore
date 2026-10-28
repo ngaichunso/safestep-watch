@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Captured alert images (may contain people)
+captures/*
+!captures/.gitkeep
+
+# Model weights (auto-downloaded on first run)
+yolov8n-pose.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
